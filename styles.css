@@ -1,0 +1,65 @@
+body {
+    position: relative;
+    background-color: #222831;
+    color: white;
+    text-align: center;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+span {
+    padding: 20px 0;
+    
+}
+
+body > header > div {
+    text-align: center;
+    background-color: #111720;
+    padding: 40px 0;
+    color: white;
+}
+
+.players, .signs {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.human-icon, .robot-icon, .rock-icon, .scissors-icon, .paper-icon {
+    border: 3px solid #4a4f57;
+    background-color: #5b5f68;
+    border-radius: 10px;
+}
+
+.players {
+    margin: 50px 0;
+}
+
+footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+}
+
+header {
+    padding-bottom: 40px;
+}
+
+.rock-icon:hover, .scissors-icon:hover, .paper-icon:hover {
+    background-color: #4a4f57;
+}
+
+.human-icon, .robot-icon {
+    transition: background-color .4s ease-out 0.1s;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
